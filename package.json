@@ -7,6 +7,7 @@
     "socket.io": "^4.1.2"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "npm run build”
   }
 }
